@@ -56,13 +56,12 @@ namespace CSharp_Study_SelfTest
         static void Main(string[] args)
         {
             VoidMethod();
-            IntMethod(1);
-            StringMethod("야호~");
-            BoolMethod(true);
-            FloatMethod(0.4350343f);
-            CharMethod('갹');
-            DoubleMethod(0.123456789101112);
-
+            var varTypeOne = IntMethod(1);
+            var varTypeTwo = StringMethod("야호~");
+            var varTypeThree = BoolMethod(true);
+            var varTypeFour = FloatMethod(0.4350343f);
+            var varTypeFive = CharMethod('갹');
+            var varTypeSix = DoubleMethod(0.123456789101112);
         }
     }
 }
